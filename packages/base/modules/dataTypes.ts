@@ -5,7 +5,7 @@
  *  TS的类型声明：相当于强类型语言（Java）中的类型声明。 语法： XX: Type
  */
 
-console.log("------------------------------------------");
+console.log("-------------------基础数据类型篇-----------------------");
 
 const sayHello: string = "Hello TypeScript";
 console.warn("String类型声明：", sayHello);
@@ -73,4 +73,4 @@ const enum enumSize {
 }
 console.warn(`Enum枚举类型声明-常量枚举：${enumSize.WIDTH}`);
 
-console.log("------------------------------------------");
+console.log("-------------------基础数据类型篇-----------------------");
