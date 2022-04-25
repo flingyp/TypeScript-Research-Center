@@ -6,3 +6,12 @@ import "./modules/interfaceTypes";
 
 // 函数的相关介绍
 import "./modules/functionTypes";
+
+// 类的相关介绍
+import "./modules/classTypes";
+
+// 类与接口的使用
+import "./modules/classInterfaceTypes";
+
+// 泛型的使用
+import "./modules/genericsTypes";
