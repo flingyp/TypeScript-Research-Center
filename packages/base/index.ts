@@ -15,3 +15,6 @@ import "./modules/classInterfaceTypes";
 
 // 泛型的使用
 import "./modules/genericsTypes";
+
+// 类型检查机制的介绍和使用
+import "./modules/typeChecks"
