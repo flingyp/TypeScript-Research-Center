@@ -17,4 +17,7 @@ import "./modules/classInterfaceTypes";
 import "./modules/genericsTypes";
 
 // 类型检查机制的介绍和使用
-import "./modules/typeChecks"
+import "./modules/typeChecks";
+
+// 高级类型的使用
+import "./modules/seniorTypes";

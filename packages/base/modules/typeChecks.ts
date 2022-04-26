@@ -32,8 +32,6 @@ let baseTypeCheckArr = ["Hello TypeScript", 20, true];
 // event: Event。TS 会根据左侧的事件绑定推断出右侧事件的类型
 window.addEventListener("load", (event) => {
   console.warn("体验上下文类型推断：Window is loading...", event);
-
-  console.log("---------------------类型检查机制篇---------------------");
 });
 
 /**
