@@ -6,8 +6,10 @@
   "main": "index.js",
   "packageManager": "pnpm",
   "scripts": {
-    "serve": "npx webpack server --config ./config/webpack.config.js",
-    "build": "npx webpack --config ./config/webpack.config.js"
+    "base": "npx webpack server --env entry=base --config ./config/webpack.config.js",
+    "engineering": "npx webpack server --env entry=engineering --config ./config/webpack.config.js",
+    "build:base": "npx webpack --env entry=base --config ./config/webpack.config.js",
+    "build:engineering": "npx webpack --env entry=engineering --config ./config/webpack.config.js"
   },
   "keywords": [
     "TypeScript"

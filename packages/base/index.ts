@@ -1,3 +1,5 @@
+console.warn("TypeScript基础篇包");
+
 // 数据类型的介绍
 import "./modules/dataTypes";
 
