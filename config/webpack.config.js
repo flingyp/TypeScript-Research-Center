@@ -13,6 +13,8 @@ module.exports = (event) => {
     entryAccess = "./packages/base/index.ts";
   } else if (event.entry === "engineering") {
     entryAccess = "./packages/engineering/index.ts";
+  } else if (event.entry === "config") {
+    entryAccess = "./packages/config/index.ts";
   } else {
     entryAccess = "./packages/base/index.ts";
   }

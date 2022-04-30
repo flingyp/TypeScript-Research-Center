@@ -8,8 +8,10 @@
   "scripts": {
     "base": "npx webpack server --env entry=base --config ./config/webpack.config.js",
     "engineering": "npx webpack server --env entry=engineering --config ./config/webpack.config.js",
+    "config": "npx webpack server --env entry=config --config ./config/webpack.config.js",
     "build:base": "npx webpack --env entry=base --config ./config/webpack.config.js",
-    "build:engineering": "npx webpack --env entry=engineering --config ./config/webpack.config.js"
+    "build:engineering": "npx webpack --env entry=engineering --config ./config/webpack.config.js",
+    "build:config": "tsc --project ./config.tsconfig.json"
   },
   "keywords": [
     "TypeScript"
